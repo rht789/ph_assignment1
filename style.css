@@ -22,6 +22,10 @@ body{
     color: #4E47FF;
 }
 
+.text-dark{
+    color: #252432;
+}
+
 .btn{
     background-color: #4E47FF;
     color: white;
@@ -85,7 +89,6 @@ main{
 .action-title{
     font-size: 48px;
     font-weight: 700;
-    color: #252432;
 }
 
 .action-description{
@@ -93,4 +96,108 @@ main{
     font-weight: 400;
     color: rgba(37, 36, 50, 0.5);
     margin: 23px 0;
+}
+
+/* productive users section  */
+.productive{
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding: 80px 50px;
+    border-radius: 24px;
+    margin-top: 115px;
+}    
+
+.productive-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.productive-stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.stats-number{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.stats-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 0;
+}
+
+/* revew section styles */
+.review{
+    margin-top: 140px;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.review-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card{
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 4px 4px 20px #f2eded;
+}
+
+.star-icon{
+    margin-bottom: 24px;
+    color: #FFB805;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-bottom: 8px;
+}
+
+.user-review{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-img{
+   width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.user-info h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+    margin: 0;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b3b3b7;
+    margin: 0;
 }
