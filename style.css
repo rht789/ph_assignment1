@@ -52,7 +52,7 @@ nav {
 
 header nav h1 {
   font-size: 34px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 /* banner section */
@@ -250,4 +250,44 @@ textarea {
   font-weight: 500;
   color: black;
   margin-bottom: 10px;
+}
+
+/* footer styles  */
+footer{
+  background-color: white;
+  padding: 105px 455px;
+}
+
+.footer-container{
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.footer-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+  line-height: 1.5;
+  margin: 20px 0;
+
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  list-style: none;
+}
+
+footer li{
+  font-size: 16px;
+  font-weight: 500;
+  color: #8987A1;
+  cursor: pointer;
 }

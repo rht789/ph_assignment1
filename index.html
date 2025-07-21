@@ -10,12 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/b06435b122.js"
@@ -136,31 +135,50 @@
       <section class="newsletter">
         <h1 class="newsletter-title">Let's Get in Touch</h1>
         <form class="newsletter-form">
-            <label class="labels inter-regular" for="email">Email</label>
-            <input
-                type="email"
-                class="newsletter-input inter-regular" name="email"
-                placeholder="example@email.com"
-                required
-            />
-            <label class="labels inter-regular for="name">Name</label>
-            <input
-                type="text"
-                class="newsletter-input inter-regular" name="name"
-                placeholder="full name"
-                required
-            />
-            <label class="labels inter-regular" for="message">Message</label>
-            <textarea
-                class="newsletter-input inter-regular" name="message"
-                rows="4"
-                placeholder="write your message...."
-                required
-            ></textarea>
-            <button type="submit" class="btn raleway-regular btn-news">Get in Touch</button>
+          <label class="labels inter-regular" for="email">Email</label>
+          <input
+            type="email"
+            class="newsletter-input inter-regular"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+          <label class="labels inter-regular" for="name">Name</label>
+          <input
+            type="text"
+            class="newsletter-input inter-regular"
+            name="name"
+            placeholder="full name"
+            required
+          />
+          <label class="labels inter-regular" for="message">Message</label>
+          <textarea
+            class="newsletter-input inter-regular"
+            name="message"
+            rows="4"
+            placeholder="write your message...."
+            required
+          ></textarea>
+          <button type="submit" class="btn raleway-regular btn-news">
+            Get in Touch
+          </button>
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-container inter-regular">
+        <h1 class="footer-logo text-blue">GLACIER</h1>
+        <p class="footer-description">
+          Ready to elevate your online presence? Contact us today to discuss
+          your project and discover how we can bring your vision to life.
+        </p>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>How it works</li>
+          <li>Services</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
